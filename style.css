@@ -1,0 +1,89 @@
+@media only screen and (min-width: 768px) {
+  /* Google fonts */
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  #gen-p {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(33, 37, 41);
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  #gen-p {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(33, 37, 41);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+}
