@@ -6,8 +6,9 @@ input.addEventListener("input", (event) => {
   value.textContent = event.target.value;
 });
 
-// Function to generate HTML and append to the DOM
+// Function to generate HTML password set to append to DOM
 const generatedPasswordAsHtml = (parameter) => {
+  // Password set
   const generatedPasswordDiv = document.createElement("div");
   generatedPasswordDiv.setAttribute("id", "title-bar");
   generatedPasswordDiv.setAttribute(
@@ -27,6 +28,7 @@ const generatedPasswordAsHtml = (parameter) => {
   generatedPasswordValue.setAttribute("id", "gen-p");
   generatedPasswordValue.setAttribute("class", "row justify-content-center");
 
+  // Copy-icon set
   const generatedClipboardDiv = document.createElement("div");
   generatedClipboardDiv.setAttribute("class", "container-md text-center mb-3");
 
@@ -35,6 +37,7 @@ const generatedPasswordAsHtml = (parameter) => {
   generatedClipboard.setAttribute("id", "copy-clipboard");
   generatedClipboard.setAttribute("class", "bi bi-clipboard");
 
+  // Append password and copy-icon sets
   generatedClipboardDiv.append(generatedClipboard);
 
   generatedPasswordDiv.append(
@@ -43,11 +46,12 @@ const generatedPasswordAsHtml = (parameter) => {
     generatedClipboardDiv
   );
 
-  // Append the generated div to the resultDisplay element
+  // Append the function result to the resultDisplay element
   const resultDisplay = document.getElementById("resultDisplay");
   resultDisplay.appendChild(generatedPasswordDiv);
 };
 
+// Trigger the function
 // Select the button element
 const submitButton = document.getElementById("submitButton");
 
@@ -65,7 +69,7 @@ submitButton.addEventListener("click", () => {
   generatedPasswordAsHtml(passwordGenerator(length, numbers, symbols));
 });
 
-// Add event listener and function to reload page
+// Function to reload the page to append to DOM
 const resetButton = document.getElementById("resetButton");
 resetButton.addEventListener("click", () => {
   location.reload();

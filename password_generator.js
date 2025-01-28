@@ -327,7 +327,7 @@ const passwordGenerator = (length, numbers, symbols) => {
   return result;
 };
 
-// // Testing area
+// Testing area
 // console.log(passwordGenerator(20, true, true)); // Includes all characters
 // console.log(passwordGenerator(20, true, false)); // Only letters and numbers
 // console.log(passwordGenerator(20, false, true)); // Only letters and symbols
