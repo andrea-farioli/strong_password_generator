@@ -324,7 +324,11 @@ const passwordGenerator = (length, numbers, symbols) => {
   }
 
   const result = password.join("");
-  return result;
+  if (result.length > 40) {
+    return result.slice(0, 40) + "\n" + result.slice(40);
+  } else {
+    return result;
+  }
 };
 
 // Testing area

@@ -26,7 +26,10 @@ const generatedPasswordAsHtml = (parameter) => {
   const generatedPasswordValue = document.createElement("p");
   generatedPasswordValue.innerHTML = parameter;
   generatedPasswordValue.setAttribute("id", "gen-p");
-  generatedPasswordValue.setAttribute("class", "row justify-content-center");
+  generatedPasswordValue.setAttribute(
+    "class",
+    "row justify-content-center text-center"
+  );
 
   // Copy-icon set
   const generatedClipboardDiv = document.createElement("div");

@@ -1,4 +1,5 @@
-@media only screen and (min-width: 768px) {
+/* Breakpoint: Extra extra large */
+@media only screen and (min-width: 1400px) {
   /* Google fonts */
   .monofett-regular {
     font-family: "Monofett", serif;
@@ -30,8 +31,107 @@
     color: rgb(33, 37, 41);
   }
 }
-
-@media only screen and (min-width: 577px) and (max-width: 767px) {
+/* Breakpoint: Extgra large */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* Google fonts */
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  #gen-p {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(33, 37, 41);
+  }
+}
+/* Breakpoint: Large */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Google fonts */
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  #gen-p {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(33, 37, 41);
+  }
+}
+/* Breakpoint: Medium */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Google fonts */
+  .monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    letter-spacing: 5%;
+    line-height: 90%;
+    color: rgb(33, 37, 41);
+  }
+  .monda {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+  }
+  #title-bar h6 {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    font-size: large;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  #gen-p {
+    font-family: "Monda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(33, 37, 41);
+  }
+}
+/* Breakpoint: Small */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .monofett-regular {
     font-family: "Monofett", serif;
     font-weight: 400;
@@ -62,8 +162,8 @@
     color: rgb(33, 37, 41);
   }
 }
-
-@media only screen and (max-width: 576px) {
+/* Breakpoint: Extra Small */
+@media only screen and (min-width: 1px) and (max-width: 575px) {
   .monofett-regular {
     font-family: "Monofett", serif;
     font-weight: 400;
