@@ -1,5 +1,3 @@
-#Strong Password Generator
-
 ## What
 
 Strong Password Generator is a fast and simple web application to generate secure passwords on client-side. 
@@ -10,4 +8,4 @@ The algorithm to create passwords is based on the Javascript language and alloca
 
 ## Why
 
-This project is merely for didactical purpose. 
+This project is merely for didactical purposes. 
