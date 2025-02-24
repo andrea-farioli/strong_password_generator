@@ -4,7 +4,7 @@ Strong Password Generator is a fast and simple web application to generate secur
 
 ## How
 
-The algorithm to create passwords is based on the Javascript language and allocated in a separated file from the main.js. 
+The algorithm to create passwords is built on the Javascript language in the password_generator.js file. 
 
 ## Why
 
