@@ -1,6 +1,6 @@
 # Strong Password Generator
 
-A single web application for generating fast and strong passwords directly in your browser.
+A single-page application for generating fast and strong passwords directly in your browser.
 
 ## Features
 
