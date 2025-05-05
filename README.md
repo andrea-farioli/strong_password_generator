@@ -12,7 +12,7 @@ A single-page application for generating fast and strong passwords directly in y
 
 The core logic for generating strong passwords resides in the `password_generator.js` file, built entirely with JavaScript. This script employs an algorithm to create random and secure password combinations.
 
-## Why This Project Exists
+## Why This Project
 
 This project was developed purely for **didactical purposes**, serving as a practical exercise in:
 
